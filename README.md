@@ -7,6 +7,6 @@ If you'd like to see the code in action, please follow these steps:
 2. run `npm install`
 3. open `/src/index.js` and uncomment the component(s) that you wish to see
 4. Run `npm start` from the command line
-5. Open a browser window to [http://localhost:3000].
+5. Open a browser window to [http://localhost:3000](http://localhost:3000).
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

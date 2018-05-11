@@ -9,7 +9,7 @@ import './index.css';
 const DemoApp = () => {
   return (
     <div>
-      <App />
+      {/* <App /> */}
       {/* <Welcome /> */}
       {/* <StateButtonCounter /> */}
       {/* <ButtonCounter /> */}
