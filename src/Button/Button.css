@@ -1,0 +1,7 @@
+.example {
+  width: 250px;
+}
+.example .slds-button {
+  display: inline-block;
+  margin: 10px;
+}
