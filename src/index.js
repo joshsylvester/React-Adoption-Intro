@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import { ButtonExample } from './Button/';
+import { App } from './App';
+import { ButtonExample } from './Button';
 import { Welcome, ButtonCounter, StateButtonCounter } from './PropsState';
 import { HelloJSX, HelloCompiled } from './JSX';
 import './index.css';
