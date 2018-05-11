@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import { ButtonExample } from './Button/';
-//import { HelloJSX, HelloCompiled } from './JSX';
-//import { Welcome, ButtonCounter, StateButtonCounter } from './PropsState';
+import App from './App';
+import { ButtonExample } from './Button/';
+import { Welcome, ButtonCounter, StateButtonCounter } from './PropsState';
+import { HelloJSX, HelloCompiled } from './JSX';
 import './index.css';
 
-const App = () => {
+const DemoApp = () => {
   return (
     <div>
+      <App />
       {/* <Welcome /> */}
       {/* <StateButtonCounter /> */}
       {/* <ButtonCounter /> */}
@@ -17,4 +19,4 @@ const App = () => {
   )
 };
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<DemoApp />, document.getElementById('root'));
